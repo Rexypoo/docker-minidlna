@@ -33,16 +33,6 @@ The network mapping `--net=host` appears to be required due to MiniDLNA automati
 
 See the Dockerfile labels related to `org.label-schema.docker.cmd` for more information.
 
-## Rescan the /Multimedia directories
-
-With the MiniDLNA server running you can scan for new media as follows:
-
-```shell
-docker exec minidlna minidlnad -R
-```
-
-This is only necessary if you've added files since starting the MiniDLNA server.
-
 # License
 
 This project is subject to the MIT license included in this repository.
